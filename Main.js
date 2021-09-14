@@ -2,7 +2,6 @@ require('dotenv').config();
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
-token = 'ODg3MDkxMDQyNTQzODc4MTg2.YT_F6Q.VAVkZ19nRy1ZJOBksnKlpdybGOs'
 CLIENT_ID = '887091042543878186';
 GUILD_ID = '887092557711028234';
 prefix = "!";
