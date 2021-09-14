@@ -2,6 +2,10 @@ require('dotenv').config();
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
+CLIENT_ID = '887091042543878186';
+GUILD_ID = '887092557711028234';
+prefix = "!";
+
 const commands = [{
   name: 'ping',
   description: 'Replies with Pong!'
